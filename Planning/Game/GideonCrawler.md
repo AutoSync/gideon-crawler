@@ -171,6 +171,14 @@ Dano ao tocar inimigo
 Vida do jogador
 Morte e respawn nos pontos de checkpoint ou locais de salvamento.
 
+## Interação com o ambiente
+
+1. O jogador deve interagir com o ambiente, porem nenhuma objeto previamente ira indicar que é interativo, o jogador deve se aproximar e apertar o botão de interação para descobrir se o objeto é interativo ou não.
+
+2. Ao interagir com um objeto, uma mensagem de texto deve aparecer na tela, indicando o que aconteceu. Por exemplo, ao interagir com uma porta trancada, a mensagem "A porta está trancada" deve aparecer.
+
+
+
 ## Vida, Mana, XP e Morte
 
 ### Vida (HP)

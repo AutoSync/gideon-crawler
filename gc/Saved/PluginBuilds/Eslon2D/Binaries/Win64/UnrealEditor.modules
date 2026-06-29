@@ -1,0 +1,8 @@
+{
+	"BuildId": "55116800",
+	"Modules": 
+	{
+		"Eslon2D": "UnrealEditor-Eslon2D.dll",
+		"Eslon2DEditor": "UnrealEditor-Eslon2DEditor.dll"
+	}
+}

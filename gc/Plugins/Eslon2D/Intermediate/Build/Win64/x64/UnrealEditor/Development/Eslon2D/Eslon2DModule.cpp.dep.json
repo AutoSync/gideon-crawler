@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dmodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2d\\definitions.eslon2d.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

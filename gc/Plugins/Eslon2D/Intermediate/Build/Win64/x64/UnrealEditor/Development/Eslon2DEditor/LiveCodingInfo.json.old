@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Eslon2DEditor.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"Eslon2DEditorModule.cpp.obj",
+			"Eslon2DViewportClient.cpp.obj",
+			"SEslon2DViewport.cpp.obj"
+		]
+	}
+}

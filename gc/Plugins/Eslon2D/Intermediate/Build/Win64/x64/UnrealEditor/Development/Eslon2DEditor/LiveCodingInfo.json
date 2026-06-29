@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Eslon2DEditor.cpp.obj": [
+			"Eslon2DEditor.init.gen.cpp.obj",
+			"Eslon2DTileMapFactory.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"Eslon2DContentBrowserExtensions.cpp.obj",
+			"Eslon2DEditorModule.cpp.obj",
+			"Eslon2DTileMapAssetTypeActions.cpp.obj",
+			"Eslon2DTileMapFactory.cpp.obj",
+			"Eslon2DViewportClient.cpp.obj",
+			"SEslon2DViewport.cpp.obj"
+		]
+	}
+}

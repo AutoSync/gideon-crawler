@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Plugins\\Eslon2D\\Source\\Eslon2DEditor\\Eslon2DEditor.Build.cs",
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Plugins\\Eslon2D\\Source\\Eslon2D\\Eslon2D.Build.cs",
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Intermediate\\Source\\gc.Build.cs",
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Intermediate\\Source\\gc.Target.cs",
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Intermediate\\Source\\gcClient.Target.cs",
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Intermediate\\Source\\gcEditor.Target.cs",
+		"D:\\Arquivos\\Game Developer\\gideon-crawler\\gc\\Intermediate\\Source\\gcServer.Target.cs"
+	],
+	"EngineVersion": "5.8.0"
+}

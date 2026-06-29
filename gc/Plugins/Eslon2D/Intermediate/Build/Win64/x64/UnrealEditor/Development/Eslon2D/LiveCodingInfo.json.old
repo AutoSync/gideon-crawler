@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Eslon2D.cpp.obj": [
+			"Eslon2D.init.gen.cpp.obj",
+			"Eslon2DTileMapAsset.gen.cpp.obj",
+			"Eslon2DTileMapComponent.gen.cpp.obj",
+			"Eslon2DTileTypes.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"Eslon2DModule.cpp.obj",
+			"Eslon2DTileMapAsset.cpp.obj",
+			"Eslon2DTileMapComponent.cpp.obj"
+		]
+	}
+}

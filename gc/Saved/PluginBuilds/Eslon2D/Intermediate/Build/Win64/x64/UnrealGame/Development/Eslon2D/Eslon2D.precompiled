@@ -1,0 +1,9 @@
+{
+	"OutputFiles": [
+		"Module.Eslon2D.cpp.obj",
+		"Eslon2DModule.cpp.obj",
+		"Eslon2DTileMapAsset.cpp.obj",
+		"Eslon2DTileMapComponent.cpp.obj"
+	],
+	"ToolChainVersion": "14.44.35228"
+}

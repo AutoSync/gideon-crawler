@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dpapertilemapbrushcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2d\\definitions.eslon2d.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dpapertilemapbrushcomponent.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dpapertilebrushtypes.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papertilelayer.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papertilelayer.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dpapertilebrushtypes.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dpapertilemapbrushcomponent.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papertilemapcomponent.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papertilemapcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Eslon2D.cpp.obj": [
+			"Eslon2D.init.gen.cpp.obj",
+			"Eslon2DFlipbookBrushComponent.gen.cpp.obj",
+			"Eslon2DGeneratedTileSprite.gen.cpp.obj",
+			"Eslon2DPaperTileBrushTypes.gen.cpp.obj",
+			"Eslon2DPaperTileMapBrushComponent.gen.cpp.obj",
+			"Eslon2DPlaneTileMapRendererComponent.gen.cpp.obj",
+			"Eslon2DTileMapAsset.gen.cpp.obj",
+			"Eslon2DTileMapComponent.gen.cpp.obj",
+			"Eslon2DTileTypes.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"Eslon2DFlipbookBrushComponent.cpp.obj",
+			"Eslon2DGeneratedTileSprite.cpp.obj",
+			"Eslon2DModule.cpp.obj",
+			"Eslon2DPaperTileMapBrushComponent.cpp.obj",
+			"Eslon2DPlaneTileMapRendererComponent.cpp.obj",
+			"Eslon2DTileMapAsset.cpp.obj",
+			"Eslon2DTileMapComponent.cpp.obj"
+		]
+	}
+}

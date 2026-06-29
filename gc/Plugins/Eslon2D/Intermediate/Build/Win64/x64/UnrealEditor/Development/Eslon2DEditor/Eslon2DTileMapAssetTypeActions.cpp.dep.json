@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2deditor\\private\\eslon2dtilemapassettypeactions.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2deditor\\definitions.eslon2deditor.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2deditor\\private\\eslon2dtilemapassettypeactions.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\developer\\assettools\\public\\assettypeactions_base.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\developer\\assettools\\public\\iassettools.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\developer\\assettools\\public\\assettypecategories.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\developer\\assettools\\public\\iassettypeactions.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\developer\\merge\\public\\merge.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\classes\\thumbnailrendering\\thumbnailmanager.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\classes\\thumbnailrendering\\thumbnailrenderer.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\thumbnailrenderer.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\thumbnailmanager.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\automatedassetimportdata.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\automatedassetimportdata.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assettools\\uht\\iassettools.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\developer\\assettools\\public\\assettoolsmodule.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\toolkits\\simpleasseteditor.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dtilemapasset.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papertileset.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\spriteeditoronlytypes.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\spriteeditoronlytypes.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\intmargin.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\intmargin.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papertileset.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dtiletypes.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dtiletypes.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dtilemapasset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

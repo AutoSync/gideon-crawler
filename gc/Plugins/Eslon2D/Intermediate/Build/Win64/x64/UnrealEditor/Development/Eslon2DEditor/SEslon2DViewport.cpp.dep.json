@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2deditor\\private\\seslon2dviewport.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2deditor\\definitions.eslon2deditor.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2deditor\\private\\seslon2dviewport.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\seditorviewport.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\editorframework\\public\\viewports\\sdepthbar.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\editorframework\\public\\styling\\depthbarstyle.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\editorframework\\uht\\depthbarstyle.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2deditor\\public\\eslon2dviewporttypes.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\engine\\classes\\engine\\selection.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\selection.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlist.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementcounter.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementcounter.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementselectionset.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementinterfacecustomization.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementlistobjectutil.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\interfaces\\typedelementselectioninterface.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlistproxy.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementlistproxy.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectioninterface.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectionset.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\selection.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2deditor\\private\\eslon2dviewportclient.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

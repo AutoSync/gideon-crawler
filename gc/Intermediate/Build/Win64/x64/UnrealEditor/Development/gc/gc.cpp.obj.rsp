@@ -1,0 +1,14 @@
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Source/gc.cpp"
+@"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/gc.Shared.rsp"
+/FI"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/Definitions.gc.h"
+/Yu"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/gc.cpp.obj"
+/experimental:log "D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/gc.cpp.sarif"
+/sourceDependencies "D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/gc.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054

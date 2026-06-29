@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dtilemapasset.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2d\\definitions.eslon2d.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dtilemapasset.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papertileset.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\spriteeditoronlytypes.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\spriteeditoronlytypes.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\intmargin.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\intmargin.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papertileset.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dtiletypes.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dtiletypes.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dtilemapasset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Eslon 2D",
+	"Description": "2D development framework for Unreal Engine with runtime tilemap foundations and custom editor tooling.",
+	"Category": "Editor",
+	"CreatedBy": "Erick Andrade",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Eslon2D",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "Eslon2DEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

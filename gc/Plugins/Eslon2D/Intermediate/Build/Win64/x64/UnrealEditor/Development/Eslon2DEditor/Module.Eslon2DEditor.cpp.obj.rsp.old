@@ -1,0 +1,14 @@
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Module.Eslon2DEditor.cpp"
+@"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Eslon2DEditor.Shared.rsp"
+/FI"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Definitions.Eslon2DEditor.h"
+/Yu"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Module.Eslon2DEditor.cpp.obj"
+/experimental:log "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Module.Eslon2DEditor.cpp.sarif"
+/sourceDependencies "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Module.Eslon2DEditor.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054

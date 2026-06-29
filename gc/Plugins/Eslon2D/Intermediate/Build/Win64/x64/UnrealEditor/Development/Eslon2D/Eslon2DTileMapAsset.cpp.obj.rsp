@@ -1,0 +1,14 @@
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Source/Eslon2D/Private/Eslon2DTileMapAsset.cpp"
+@"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2D.Shared.rsp"
+/FI"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h"
+/FI"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Definitions.Eslon2D.h"
+/Yu"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h"
+/Fp"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.pch"
+/Fo"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2DTileMapAsset.cpp.obj"
+/experimental:log "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2DTileMapAsset.cpp.sarif"
+/sourceDependencies "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2DTileMapAsset.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054
