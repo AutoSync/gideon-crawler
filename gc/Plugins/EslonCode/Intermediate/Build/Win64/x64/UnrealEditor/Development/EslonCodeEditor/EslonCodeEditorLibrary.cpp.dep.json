@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\source\\esloncodeeditor\\private\\esloncodeeditorlibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\gceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\esloncodeeditor\\definitions.esloncodeeditor.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\source\\esloncodeeditor\\public\\esloncodeeditorlibrary.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\unrealeditor\\inc\\esloncodeeditor\\uht\\esloncodeeditorlibrary.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\edgraphnode_comment.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\edgraphnode_comment.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\plugindisalloweddescriptor.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\projects\\public\\versescope.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_functionentry.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_functionterminator.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_functionterminator.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\kismetcompiler\\public\\kismetcompilermisc.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\kismetcompiler\\public\\bpterminal.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\kismetcompiler\\public\\blueprintcompiledstatement.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_functionentry.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_functionresult.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_functionresult.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_ifthenelse.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_ifthenelse.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\kismet2\\blueprinteditorutils.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\classviewer\\public\\classviewermodule.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\editor\\unrealed\\public\\kismet2\\kismeteditorutilities.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

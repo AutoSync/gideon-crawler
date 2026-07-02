@@ -3,7 +3,7 @@
     "Data": {
         "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2d\\module.eslon2d.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\gceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2d\\definitions.eslon2d.h",
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2d.init.gen.cpp",
@@ -44,7 +44,25 @@
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dtilemapcomponent.generated.h",
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\unrealeditor\\inc\\eslon2d\\uht\\eslon2dtiletypes.gen.cpp",
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eslon2d\\permoduleinline.gen.cpp",
-            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dflipbookbrushcomponent.cpp",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\paperflipbookcomponent.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\paperflipbookcomponent.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papertilemapcomponent.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papertilemapcomponent.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dgeneratedtilesprite.cpp",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dmodule.cpp",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\public\\eslon2dmodule.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dpapertilemapbrushcomponent.cpp",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dplanetilemaprenderercomponent.cpp",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papergroupedspritecomponent.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papergroupedspritecomponent.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\paperspritecomponent.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\paperspritecomponent.generated.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papertilemap.h",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papertilemap.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dtilemapasset.cpp",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\eslon2d\\source\\eslon2d\\private\\eslon2dtilemapcomponent.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

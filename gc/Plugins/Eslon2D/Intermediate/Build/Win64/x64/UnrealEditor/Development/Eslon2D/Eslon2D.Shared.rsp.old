@@ -336,7 +336,11 @@
 /I "Editor/AnimationEditMode/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/EditorInteractiveToolsFramework/UHT"
 /I "Editor/Experimental/EditorInteractiveToolsFramework/Public"
-/I "D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd"
+/I "../Plugins/2D/Paper2D/Intermediate/Build/Win64/UnrealEditor/Inc/Paper2D/UHT"
+/I "../Plugins/2D/Paper2D/Source"
+/I "../Plugins/2D/Paper2D/Source/Paper2D/Classes"
+/I "../Plugins/2D/Paper2D/Source/Paper2D/Public"
+/I "D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd"
 /external:W0
 /external:I "ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 /external:I "ThirdParty/AtomicQueue"

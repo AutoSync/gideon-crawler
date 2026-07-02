@@ -36,17 +36,17 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NOEXP
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Module.Eslon2DEditor.cpp.obj"
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Eslon2DEditorModule.cpp.obj"
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Eslon2DViewportClient.cpp.obj"
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/SEslon2DViewport.cpp.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2DEditor/Default.rc2.res"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/AssetTools/UnrealEditor-AssetTools.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/ApplicationCore/UnrealEditor-ApplicationCore.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/ContentBrowser/UnrealEditor-ContentBrowser.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/EditorFramework/UnrealEditor-EditorFramework.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/InputCore/UnrealEditor-InputCore.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/LevelEditor/UnrealEditor-LevelEditor.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Projects/UnrealEditor-Projects.lib"
+"../Plugins/2D/Paper2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paper2D/UnrealEditor-Paper2D.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Slate/UnrealEditor-Slate.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/SlateCore/UnrealEditor-SlateCore.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/ToolMenus/UnrealEditor-ToolMenus.lib"

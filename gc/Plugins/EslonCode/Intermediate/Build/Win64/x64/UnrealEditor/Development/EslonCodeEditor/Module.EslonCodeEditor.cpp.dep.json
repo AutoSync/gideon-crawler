@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\esloncodeeditor\\module.esloncodeeditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\gceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\esloncodeeditor\\definitions.esloncodeeditor.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\unrealeditor\\inc\\esloncodeeditor\\uht\\esloncodeeditor.init.gen.cpp",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\unrealeditor\\inc\\esloncodeeditor\\uht\\esloncodeeditorlibrary.gen.cpp",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\source\\esloncodeeditor\\public\\esloncodeeditorlibrary.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\unrealeditor\\inc\\esloncodeeditor\\uht\\esloncodeeditorlibrary.generated.h",
+            "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\esloncodeeditor\\permoduleinline.gen.cpp",
+            "d:\\arquivos\\hddr\\ue_5.8\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

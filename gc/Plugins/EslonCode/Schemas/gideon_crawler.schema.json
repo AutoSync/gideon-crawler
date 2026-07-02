@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "project": "Gideon Crawler",
+  "types": {
+    "bool": {
+      "unreal": "bool"
+    },
+    "int32": {
+      "unreal": "int32"
+    },
+    "float": {
+      "unreal": "float"
+    },
+    "Name": {
+      "unreal": "FName"
+    },
+    "String": {
+      "unreal": "FString"
+    },
+    "Text": {
+      "unreal": "FText"
+    },
+    "DA_InventoryItem": {
+      "kind": "DataAsset",
+      "path": "/Game/BIN_GC/BP/GAMEPROPS/INTERACTABLES/DATAASSET/DA_InventoryItem",
+      "properties": {
+        "ItemType": "E_ItemType",
+        "ItemCode": "Name",
+        "Quantity": "int32",
+        "ConsumeOnUse": "bool",
+        "UseRemain": "int32",
+        "InfiniteUses": "bool",
+        "DisplayName": "Text",
+        "CanDiscard": "bool",
+        "Description": "Text",
+        "CanEquip": "bool",
+        "EquipSlot": "E_EquipSlot",
+        "ItemRarity": "E_ItemRarity",
+        "Power": "int32",
+        "Recharge": "float",
+        "ManaCost": "int32",
+        "Duration": "float"
+      }
+    },
+    "TArray<DA_InventoryItem>": {
+      "kind": "Array",
+      "element": "DA_InventoryItem",
+      "properties": {
+        "Length": "int32"
+      },
+      "methods": {
+        "Add": {
+          "inputs": [
+            {
+              "name": "Item",
+              "type": "DA_InventoryItem"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Index",
+              "type": "int32"
+            }
+          ]
+        },
+        "IsValidIndex": {
+          "inputs": [
+            {
+              "name": "Index",
+              "type": "int32"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "IsValid",
+              "type": "bool"
+            }
+          ]
+        },
+        "RemoveIndex": {
+          "inputs": [
+            {
+              "name": "Index",
+              "type": "int32"
+            }
+          ],
+          "outputs": []
+        }
+      }
+    },
+    "E_ItemType": {
+      "kind": "Enum",
+      "path": "/Game/BIN_GC/BP/GAMEPROPS/INTERACTABLES/ENUMS/E_ItemType",
+      "values": [
+        "Key",
+        "Health Potion",
+        "Mana Potion",
+        "Gemstone",
+        "Seal",
+        "Mail",
+        "Amulets",
+        "Collectable",
+        "AmuletHealth",
+        "AmuletDefense",
+        "AmuletManaReg"
+      ]
+    },
+    "E_EquipSlot": {
+      "kind": "Enum",
+      "path": "/Game/BIN_GC/BP/GAMEPROPS/INTERACTABLES/ENUMS/E_EquipSlot"
+    },
+    "E_ItemRarity": {
+      "kind": "Enum",
+      "path": "/Game/BIN_GC/BP/GAMEPROPS/INTERACTABLES/ENUMS/E_ItemRarity"
+    },
+    "E_ItemUseResult": {
+      "kind": "Enum",
+      "path": "/Game/BIN_GC/BP/GAMEPROPS/INTERACTABLES/ENUMS/E_ItemUseResult"
+    }
+  },
+  "interfaces": {
+    "BPI_ItemUseTarget": {
+      "path": "/Game/BIN_GC/BP/GAMEPROPS/INTERACTABLES/INTERFACES/BPI_ItemUseTarget",
+      "functions": {
+        "TryUseItem": {
+          "inputs": [
+            {
+              "name": "ItemData",
+              "type": "DA_InventoryItem"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Result",
+              "type": "E_ItemUseResult"
+            },
+            {
+              "name": "ConsumeItem",
+              "type": "bool"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": {
+    "BeginPlay": {
+      "owner": "Actor"
+    },
+    "Interact": {
+      "owner": "BPI_Interactable_GC"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# EslonCode MVP example for BPC_Inventory.
+# This is intentionally close to the documentation in docs/SYSTEMS/BPC_Inventory.md.
+
+var InventoryItems: TArray<DA_InventoryItem>
+var MaxSlotItems: int32
+
+def AddItem(ItemData: DA_InventoryItem) -> (Success: bool):
+    if InventoryItems.Length == MaxSlotItems:
+        return False
+    else:
+        InventoryItems.Add(ItemData)
+        return True
+
+
+def HasItem(RequiredItemType: E_ItemType, RequiredItemCode: Name) -> (Found: bool, ItemIndex: int32):
+    for ItemData in InventoryItems:
+        if ItemData.ItemType == RequiredItemType AND ItemData.ItemCode == RequiredItemCode:
+            return True, ItemData.Index
+    return False, -1

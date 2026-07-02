@@ -42,3 +42,13 @@ Motivo:
 - Mantém o custo de renderizacao e atualizacao controlavel.
 - Permite HLOD/culling nos chunks estaticos.
 - Permite carregar/descarregar salas inteiras sem quebrar a estrutura de tiles.
+
+## ADR-007 - EslonCode como ponte textual para Blueprints
+O fluxo textual para gerar Blueprints sera implementado como plugin editor separado chamado `EslonCode`.
+
+Motivo:
+- Mantem a ferramenta fora da logica principal de gameplay.
+- Permite usar Python da Unreal para parser, schema e automacao de editor.
+- Permite usar C++ apenas onde a API K2 exige acesso mais direto a grafos, pins e nodes.
+- Evita sobrescrever Blueprints manuais: o emissor so substitui grafos marcados como `@EslonCodeGenerated`.
+- Mantem o dialeto sensivel ao contexto do projeto por schema versionado, em vez de hardcode espalhado em UI ou GameMode.

@@ -44,6 +44,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/Binaries/Win64/UnrealEditor-EslonCodeEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/Binaries/Win64/UnrealEditor-EslonCodeEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Win64/X64/plugins/ar/resources/plugInfo.json",
 			"Type": "RequiredResource"
 		},
@@ -13695,6 +13707,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Plugins/Eslon2D/Eslon2D.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/EslonCode.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -39989,6 +40005,7 @@
 		"EnhancedInput",
 		"EnvironmentQueryEditor",
 		"Eslon2D",
+		"EslonCode",
 		"ExampleDeviceProfileSelector",
 		"FacialAnimation",
 		"FileSandbox",

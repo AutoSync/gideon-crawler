@@ -18,17 +18,17 @@ Construir uma dungeon pequena e jogável que prove o núcleo de Gideon Crawler: 
 - [x] Porta abrindo/fechando por interação.
 - [x] Item coletável básico.
 - [x] Inventário com adicionar/remover item.
-- [ ] HUD de interação.
+- [x] HUD de interação.
 - [ ] Ataque básico e dano.
 - [ ] Feedback de mensagem para interação.
 
 ## Fase 2 - Inventário em contexto
-- [ ] Consolidar `BPC_Inventory` como fonte de verdade do inventário.
-- [ ] Consolidar `SInventoryItem` com dados suficientes para UI, uso e savegame.
-- [ ] Criar/ajustar `TryUseItem`.
-- [ ] Integrar UI de inventário com o componente sem regra principal de gameplay no Widget.
-- [ ] Integrar uso de chave com porta trancada por `BPI_ItemUseTarget`.
-- [ ] Exibir "Não é possível usar aqui." quando não houver alvo válido.
+- [x] Consolidar `BPC_Inventory` como fonte de verdade do inventário.
+- [x] Consolidar `DA_InventoryItem` com dados suficientes para UI, uso e savegame.
+- [x] Criar/ajustar `TryUseItem`.
+- [x] Integrar UI de inventário com o componente sem regra principal de gameplay no Widget.
+- [x] Integrar uso de chave com porta trancada por `BPI_ItemUseTarget`.
+- [x] Exibir "Não é possível usar aqui." quando não houver alvo válido.
 
 ## Fase 3 - Sala 1
 - [ ] Ensinar movimento.

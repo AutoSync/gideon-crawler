@@ -56,6 +56,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/Binaries/Win64/UnrealEditor-EslonCodeEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/Binaries/Win64/UnrealEditor-EslonCodeEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3344,6 +3356,26 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDf217bb713972V21/Binaries/Win64/UnrealEditor-PaperZD.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDf217bb713972V21/Binaries/Win64/UnrealEditor-PaperZD.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDf217bb713972V21/Binaries/Win64/UnrealEditor-PaperZDEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDf217bb713972V21/Binaries/Win64/UnrealEditor-PaperZDEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDf217bb713972V21/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Win64/UnrealEditor-MassInsightsAnalysis.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4243,6 +4275,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Plugins/Eslon2D/Eslon2D.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EslonCode/EslonCode.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27450,6 +27486,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDf217bb713972V21/PaperZD.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/MassInsights/MassInsights.uplugin",
 			"Type": "UFS"
 		},
@@ -27825,6 +27865,7 @@
 		"EnhancedInput",
 		"EnvironmentQueryEditor",
 		"Eslon2D",
+		"EslonCode",
 		"ExampleDeviceProfileSelector",
 		"FacialAnimation",
 		"FileSandbox",
@@ -27889,6 +27930,7 @@
 		"OnlineSubsystemUtils",
 		"OodleNetwork",
 		"Paper2D",
+		"PaperZD",
 		"PerforceSourceControl",
 		"PhysicsControl",
 		"PlasticSourceControl",

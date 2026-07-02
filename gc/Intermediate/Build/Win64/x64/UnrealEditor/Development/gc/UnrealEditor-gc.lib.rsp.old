@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/experimental:deterministic
+/DEF
+/NAME:"UnrealEditor-gc.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/Module.gc.cpp.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/gc.cpp.obj"
+/OUT:"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/gc/UnrealEditor-gc.lib"

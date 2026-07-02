@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "EslonCode",
+	"Description": "Editor tooling that converts a Python-like textual DSL into Unreal Blueprint graph plans and generated K2 graphs.",
+	"Category": "Editor",
+	"CreatedBy": "Erick Andrade",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "EslonCodeEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}

@@ -36,15 +36,13 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NOEXP
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Module.Eslon2D.cpp.obj"
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2DModule.cpp.obj"
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2DTileMapAsset.cpp.obj"
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Eslon2DTileMapComponent.cpp.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Default.rc2.res"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
+"../Plugins/2D/Paper2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paper2D/UnrealEditor-Paper2D.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
