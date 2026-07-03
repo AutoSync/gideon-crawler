@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EslonCodeEditor.cpp.obj": [
+			"EslonCodeEditor.init.gen.cpp.obj",
+			"EslonCodeEditorLibrary.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"EslonCodeEditorLibrary.cpp.obj",
+			"EslonCodeEditorModule.cpp.obj"
+		]
+	}
+}

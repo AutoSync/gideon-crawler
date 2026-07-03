@@ -6,7 +6,8 @@
 			"EslonCodeEditorLibrary.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"EslonCodeEditorLibrary.cpp.obj",
-			"EslonCodeEditorModule.cpp.obj"
+			"EslonCodeEditorModule.cpp.obj",
+			"EslonCodeStudioWidget.cpp.obj"
 		]
 	}
 }

@@ -7,8 +7,9 @@
 /NAME:"UnrealEditor-EslonCodeEditor.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/EslonCode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EslonCodeEditor/Module.EslonCodeEditor.cpp.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/EslonCode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EslonCodeEditor/EslonCodeEditorLibrary.cpp.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/EslonCode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EslonCodeEditor/EslonCodeEditorModule.cpp.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/EslonCode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EslonCodeEditor/EslonCodeStudioWidget.cpp.obj"
 /OUT:"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/EslonCode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EslonCodeEditor/UnrealEditor-EslonCodeEditor.lib"

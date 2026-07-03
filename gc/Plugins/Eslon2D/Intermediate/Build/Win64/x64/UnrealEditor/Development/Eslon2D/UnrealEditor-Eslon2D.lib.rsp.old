@@ -7,6 +7,6 @@
 /NAME:"UnrealEditor-Eslon2D.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
 "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/Module.Eslon2D.cpp.obj"
 /OUT:"D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/x64/UnrealEditor/Development/Eslon2D/UnrealEditor-Eslon2D.lib"

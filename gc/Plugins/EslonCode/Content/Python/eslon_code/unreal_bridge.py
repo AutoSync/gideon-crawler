@@ -10,7 +10,8 @@ from .schema import EslonCodeSchema
 
 PLUGIN_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_SCHEMA = PLUGIN_ROOT / "Schemas" / "gideon_crawler.schema.json"
-EXAMPLE_SOURCE = PLUGIN_ROOT / "Examples" / "BPC_Inventory.gscript"
+EXAMPLE_SOURCE = PLUGIN_ROOT / "Examples" / "BPC_Inventory.eslon"
+LEGACY_EXAMPLE_SOURCE = PLUGIN_ROOT / "Examples" / "BPC_Inventory.gscript"
 
 
 def compile_file_to_plan(source_path: str | Path, schema_path: str | Path | None = DEFAULT_SCHEMA) -> dict[str, Any]:
@@ -28,7 +29,8 @@ def write_plan(plan: dict[str, Any], output_path: str | Path) -> Path:
 
 def compile_plugin_example_to_saved_plan() -> Path:
     output_path = _saved_plan_dir() / "BPC_Inventory.plan.json"
-    plan = compile_file_to_plan(EXAMPLE_SOURCE)
+    example_source = EXAMPLE_SOURCE if EXAMPLE_SOURCE.exists() else LEGACY_EXAMPLE_SOURCE
+    plan = compile_file_to_plan(example_source)
     path = write_plan(plan, output_path)
     _log(f"EslonCode example plan written to: {path}")
     return path

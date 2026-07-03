@@ -10,7 +10,7 @@ from .schema import EslonCodeSchema
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compile EslonCode source into a Blueprint graph plan JSON.")
-    parser.add_argument("source", type=Path, help="Path to a .gscript file.")
+    parser.add_argument("source", type=Path, help="Path to an .eslon file (legacy .gscript is also supported).")
     parser.add_argument("--schema", type=Path, default=None, help="Optional EslonCode schema JSON.")
     parser.add_argument("--out", type=Path, default=None, help="Optional output JSON path.")
     args = parser.parse_args()

@@ -1,5 +1,9 @@
 # Devlog
 
+## 2026-07-02
+- Padronizada a extensao `.eslon` como formato canonico do EslonCode, mantendo compatibilidade legada com `.gscript` onde isso ajuda a transicao.
+- Adicionada a interface `SEslonCodeStudio` dentro da Unreal para editar o texto, gerar o Blueprint 1:1 e sincronizar criacao, atualizacao e remocao de grafo e variaveis por meio de manifest sidecar.
+
 ## 2026-07-01
 - Criado o plugin editor `EslonCode` em `gc/Plugins/EslonCode`, com parser Python para linguagem textual estilo Python, schema Unreal do projeto, exemplo de inventario e emissor C++ inicial para grafos Blueprint gerados.
 - Documentado `EslonCode` em `docs/TOOLS/EslonCode.md`, incluindo arquitetura, sintaxe MVP, uso via Python da Unreal e limites atuais do emissor K2.

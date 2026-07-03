@@ -17,11 +17,15 @@ public class EslonCodeEditor : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"AppFramework",
 				"BlueprintGraph",
+				"DesktopPlatform",
 				"Json",
 				"JsonUtilities",
 				"KismetCompiler",
+				"LevelEditor",
 				"Projects",
+				"PythonScriptPlugin",
 				"Slate",
 				"SlateCore",
 				"ToolMenus",

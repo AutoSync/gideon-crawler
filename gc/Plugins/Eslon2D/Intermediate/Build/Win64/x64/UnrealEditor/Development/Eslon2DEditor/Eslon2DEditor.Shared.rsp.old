@@ -342,7 +342,7 @@
 /I "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Source/Eslon2DEditor/Public"
 /I "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Intermediate/Build/Win64/UnrealEditor/Inc/Eslon2D/UHT"
 /I "D:/Arquivos/Game Developer/gideon-crawler/gc/Plugins/Eslon2D/Source/Eslon2D/Public"
-/I "D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd"
+/I "D:/Arquivos/Game Developer/gideon-crawler/gc/Intermediate/Build/Win64/x64/gcEditor/Development/UnrealEd"
 /external:W0
 /external:I "ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 /external:I "ThirdParty/AtomicQueue"

@@ -52,3 +52,19 @@ Motivo:
 - Permite usar C++ apenas onde a API K2 exige acesso mais direto a grafos, pins e nodes.
 - Evita sobrescrever Blueprints manuais: o emissor so substitui grafos marcados como `@EslonCodeGenerated`.
 - Mantem o dialeto sensivel ao contexto do projeto por schema versionado, em vez de hardcode espalhado em UI ou GameMode.
+
+## ADR-008 - `.eslon` e a extensao canonica do EslonCode
+Os arquivos fonte do EslonCode passam a usar `.eslon` como extensao canonica.
+
+Motivo:
+- Deixa a ferramenta reutilizavel em outros projetos Unreal sem carregar o nome legado do prototipo.
+- Padroniza a experiencia no editor, nos exemplos e na documentacao.
+- Mantem compatibilidade com `.gscript` apenas como transicao, sem criar novo custo de migracao.
+
+## ADR-009 - Vinculo por manifest sidecar entre fonte e Blueprint
+Cada arquivo fonte do EslonCode grava um manifest `.esloncode.json` ao lado do script para rastrear o Blueprint gerado, os grafos emitidos e as variaveis de membro criadas.
+
+Motivo:
+- Permite apagar, atualizar ou criar conteudo gerado de forma deterministica.
+- Mantem o vínculo entre script e Blueprint sem depender de estado temporario da sessao.
+- Facilita um fluxo 1:1 entre arquivo textual e ativo Blueprint, com sincronizacao incremental.

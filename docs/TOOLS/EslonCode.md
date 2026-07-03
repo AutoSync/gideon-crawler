@@ -23,7 +23,7 @@ O pacote `eslon_code` fica em:
 - `gc/Plugins/EslonCode/Content/Python/eslon_code`
 
 Ele faz:
-- Leitura de `.gscript`.
+- Leitura de `.eslon`, com compatibilidade legada para `.gscript`.
 - Normalizacao de sintaxe, incluindo `AND`, `OR`, `Return`.
 - Parse via AST Python.
 - Geracao de IR com nodes, pins, conexoes e posicoes.
@@ -46,7 +46,13 @@ Ele registra tipos do projeto, incluindo:
 O modulo `EslonCodeEditor` expoe:
 - `UEslonCodeEditorLibrary::EmitBlueprintPlanAsNodes`
 - `UEslonCodeEditorLibrary::AddBlueprintMemberVariableFromText`
+- `UEslonCodeEditorLibrary::GetWorkspaceManifestPath`
+- `UEslonCodeEditorLibrary::LoadWorkspaceManifestFromSourcePath`
+- `UEslonCodeEditorLibrary::SaveWorkspaceManifestToSourcePath`
+- `UEslonCodeEditorLibrary::CompileSourceFileToPlanJson`
+- `UEslonCodeEditorLibrary::SyncBlueprintFromSourceFile`
 - `UEslonCodeEditorLibrary::GetDefaultSchemaPath`
+- `SEslonCodeStudio`
 
 O emissor atual:
 - Cria funcoes novas no Blueprint alvo.
@@ -58,7 +64,7 @@ O emissor atual:
 
 ## Exemplo atual
 Arquivo:
-- `gc/Plugins/EslonCode/Examples/BPC_Inventory.gscript`
+- `gc/Plugins/EslonCode/Examples/BPC_Inventory.eslon`
 
 Ele cobre:
 - `AddItem(ItemData) -> Success`
@@ -70,7 +76,7 @@ Ele cobre:
 import eslon_code.unreal_bridge as ec
 
 ec.emit_file_to_blueprint(
-    r"D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Examples\BPC_Inventory.gscript",
+    r"D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Examples\BPC_Inventory.eslon",
     "/Game/BIN_GC/BP/PLAYER/MASTER/BPC_Inventory",
     replace_generated_graphs=True,
     compile_after_emit=False,
@@ -83,7 +89,7 @@ ec.emit_file_to_blueprint(
 
 ```powershell
 $env:PYTHONPATH="D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Content\Python"
-python -m eslon_code.cli "D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Examples\BPC_Inventory.gscript" --schema "D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Schemas\gideon_crawler.schema.json" --out "D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Saved\Plans\BPC_Inventory.plan.json"
+python -m eslon_code.cli "D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Examples\BPC_Inventory.eslon" --schema "D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Schemas\gideon_crawler.schema.json" --out "D:\Arquivos\Game Developer\gideon-crawler\gc\Plugins\EslonCode\Saved\Plans\BPC_Inventory.plan.json"
 ```
 
 ## Sintaxe MVP
@@ -115,5 +121,5 @@ Suportado no parser/IR:
 - Emitir nodes puros reais para `Length`, comparacoes e boolean `AND`.
 - Emitir `ForEachLoop` usando macro padrao da Unreal ou expansao C++ propria.
 - Resolver assets Blueprint do schema para tipos de pins de `DA_InventoryItem`, enums e interfaces.
-- Adicionar painel Slate para editar/compilar `.gscript` sem usar console Python.
+- Adicionar preview de diff entre o script, o manifest e o Blueprint gerado.
 - Implementar import reverso parcial: Blueprint selecionado para IR/texto.
