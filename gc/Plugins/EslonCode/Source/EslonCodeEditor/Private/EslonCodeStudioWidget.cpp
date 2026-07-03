@@ -2,10 +2,10 @@
 
 #include "DesktopPlatformModule.h"
 #include "Framework/Application/SlateApplication.h"
-#include "Interfaces/IDesktopPlatform.h"
 #include "Interfaces/IPluginManager.h"
 #include "HAL/FileManager.h"
 #include "HAL/PlatformProcess.h"
+#include "IDesktopPlatform.h"
 #include "Misc/FileHelper.h"
 #include "Misc/Paths.h"
 #include "Styling/AppStyle.h"

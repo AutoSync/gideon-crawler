@@ -82,7 +82,7 @@ void FEslonCodeEditorModule::OpenEslonCodeStudio()
 
 TSharedRef<SDockTab> FEslonCodeEditorModule::SpawnEslonCodeStudioTab(const FSpawnTabArgs& SpawnTabArgs)
 {
-	UNREFERENCED_PARAMETER(SpawnTabArgs);
+	(void)SpawnTabArgs;
 
 	return SNew(SDockTab)
 		.TabRole(ETabRole::NomadTab)

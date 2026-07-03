@@ -3,7 +3,7 @@
     "Data": {
         "Source": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\esloncodeeditor\\module.esloncodeeditor.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\gceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\arquivos\\game developer\\gideon-crawler\\gc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
         "Includes": [
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\esloncodeeditor\\definitions.esloncodeeditor.h",
             "d:\\arquivos\\game developer\\gideon-crawler\\gc\\plugins\\esloncode\\intermediate\\build\\win64\\unrealeditor\\inc\\esloncodeeditor\\uht\\esloncodeeditor.init.gen.cpp",

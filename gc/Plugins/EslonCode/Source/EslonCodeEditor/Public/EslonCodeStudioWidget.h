@@ -13,6 +13,7 @@ public:
 	SLATE_END_ARGS()
 
 	void Construct(const FArguments& InArgs);
+	static FString GetDiagnosticsLinePrefix(EEslonCodeDiagnosticSeverity Severity);
 
 private:
 	FReply HandleBrowseSourceClicked();
@@ -48,7 +49,6 @@ private:
 	static FString GetDefaultBlueprintPath();
 	static FString GetDefaultParentClassPath();
 	static FString JoinNames(const TArray<FString>& Names);
-	static FString GetDiagnosticsLinePrefix(EEslonCodeDiagnosticSeverity Severity);
 
 private:
 	FString SourcePath;

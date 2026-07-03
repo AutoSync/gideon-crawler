@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-struct FSpawnTabArgs;
+class FSpawnTabArgs;
 
 class FEslonCodeEditorModule final : public IModuleInterface
 {

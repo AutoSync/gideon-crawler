@@ -1,9 +1,7 @@
 #include "EslonCodeEditorLibrary.h"
 
 #include "AssetRegistry/AssetRegistryModule.h"
-#include "Dom/JsonObjectConverter.h"
 #include "Dom/JsonObject.h"
-#include "FileHelpers.h"
 #include "EdGraph/EdGraph.h"
 #include "EdGraph/EdGraphPin.h"
 #include "EdGraphNode_Comment.h"
@@ -20,10 +18,12 @@
 #include "K2Node_IfThenElse.h"
 #include "Kismet2/BlueprintEditorUtils.h"
 #include "Kismet2/KismetEditorUtilities.h"
+#include "FileHelpers.h"
 #include "Misc/FileHelper.h"
 #include "Misc/Paths.h"
 #include "Misc/SecureHash.h"
 #include "Misc/ScopedSlowTask.h"
+#include "JsonObjectConverter.h"
 #include "ScopedTransaction.h"
 #include "Serialization/JsonReader.h"
 #include "Serialization/JsonSerializer.h"
@@ -955,6 +955,8 @@ bool UEslonCodeEditorLibrary::EmitBlueprintPlanAsNodes(
 	Report.bSuccess = !bHadFatalError;
 	return Report.bSuccess;
 }
+
+using namespace EslonCodeEditor;
 
 FString UEslonCodeEditorLibrary::GetWorkspaceManifestPath(const FString& SourcePath)
 {
